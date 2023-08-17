@@ -3,6 +3,7 @@
  */
 
 package com.mycompany.trabajo2;
+import java.util.Scanner;
 
 /**
  *
@@ -11,6 +12,11 @@ package com.mycompany.trabajo2;
 public class Trabajo2 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ingrese 5 numeros: ");
+        for (int i=0;i<5;i++){
+            System.out.println("Numero "+(i+1)+": ");
+            numeros[i]=sc.nextInt();
+        }
     }
 }
