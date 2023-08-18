@@ -3,7 +3,7 @@
  */
 
 package com.mycompany.algoribusqueda;
-
+import java.util.Scanner;
 /**
  *
  * @author Alumno
@@ -11,6 +11,6 @@ package com.mycompany.algoribusqueda;
 public class Algoribusqueda {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner scanner = new Scanner(System.in);
     }
 }
