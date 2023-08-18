@@ -36,6 +36,6 @@ public class Trabajo2 {
                 }
             }
         }
-        
+        System.out.println("Los numeros fueron ordenados correctamente");
     }
 }
