@@ -12,5 +12,9 @@ public class Algoribusqueda {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int[]numbers = new int[5];
+        
+        System.out.println("Ingrese 5 numeros: ");
+        
     }
 }
