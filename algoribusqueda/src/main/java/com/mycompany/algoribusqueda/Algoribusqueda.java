@@ -16,9 +16,18 @@ public class Algoribusqueda {
         
         System.out.println("Ingrese 5 numeros: ");
         
-        for (int i = 0;i < 5:i++) {
-           System.out.print("numero" + (i + 1)+":");
-           numbers[i] = scanner.nextInt();
+        for (int i = 0; i < 5; i++) {
+            System.out.print("Número " + (i + 1) + ": ");
+            numbers[i] = scanner.nextInt();
+        }
+        for (int i = 0; i < 4; i++) {
+            for (int j= 0; j<4 - i;j++) {
+                if (numbers[j] > numbers[j + 1]) {
+                    int temp = numbers[j];
+                    numbers[j]=numbers[j+1];
+                    numbers[j+1]= temp ;
+                }
+        }
     }
     }
 }
