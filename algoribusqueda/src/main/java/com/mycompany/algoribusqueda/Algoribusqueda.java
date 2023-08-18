@@ -27,7 +27,13 @@ public class Algoribusqueda {
                     numbers[j]=numbers[j+1];
                     numbers[j+1]= temp ;
                 }
+            }
+        }           
+        System.out.println("numeros ordenados de mayor a menor:");
+        for (int num : numbers){
+            System.out.println(num +" ");
         }
-    }
+        
+        scanner.close();
     }
 }
